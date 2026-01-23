@@ -10,7 +10,7 @@ const Navbar = () => {
         Upload Resume
       </Link>
     </nav>
-  );
-};
+  )
+}
 
 export default Navbar;
