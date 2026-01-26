@@ -2,7 +2,7 @@ import { useState } from "react";
 import Navbar from "~/components/Navbar";
 
 const Upload = () => {
-  const [isProcessing, setIsProcessing] = useState(true);
+  const [isProcessing, setIsProcessing] = useState(false);
   const [statusText, setStatusText] = useState('');
 
   const handleSubmit=(e: React.FormEvent<HTMLFormElement>)=>{}
